@@ -9,7 +9,7 @@
 }
 
 .cabeçalho {
-    background-image: url(./img/59246d4f01594dd15915cc75df2433ed.jpg)
+    background-image: url"./img/59246d4f01594dd15915cc75df2433ed.jpg"
     color: white;
     display:flex;
     justify-content: space-around;
