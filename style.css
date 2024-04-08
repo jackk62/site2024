@@ -9,7 +9,7 @@
 }
 
 .cabeçalho {
-    background-color: rgb(2, 26, 77);
+    background-color: rgb(255, 0, 0);
     color: white;
     display:flex;
     justify-content: space-around;
