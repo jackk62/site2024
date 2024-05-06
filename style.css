@@ -21,36 +21,3 @@ margin: 0 16px;
 padding: 24px 0;
 font-size:  24px;
 }
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jujutsu Kaisen</title>
-</head>
-<body>
-    <header>
-        <h1>Jujutsu Kaisen</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="personagens.html">Personagens</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Sobre Jujutsu Kaisen</h2>
-            <p>Jujutsu Kaisen é um popular anime e mangá japonês criado por Gege Akutami. A história segue Yuji Itadori, um estudante do ensino médio com habilidades físicas extraordinárias, que se envolve no mundo sobrenatural de maldições e feitiçaria.</p>
-        </section>
-        <section>
-            <h2>Trailer</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1q8AyL1HE6A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 Jujutsu Kaisen Site</p>
-    </footer>
-</body>
-</html>
- }
