@@ -112,27 +112,68 @@
         </section>
         <section id="characters">
             <h2>Personagens</h2>
-            <div>
-                <h3>Yuji Itadori</h3>
-                <p>A história conta como Yuji Itadori foi inserido dentro de um mundo repleto de maldições após a morte de seu avô. Feiticeiros, energia amaldiçoada e seres fantásticos se tornaram comuns após o garoto ingerir um objeto amaldiçoado do Rei das Maldições – um dos 20 dedos de Ryomen Sukuna – e ter sua vida virada de cabeça para baixo.</p>
-                
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f0f0f0;
+                }
+                h1 {
+                    text-align: center;
+                    margin-top: 20px;
+                }
+                .container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding: 20px;
+                }
+                .character {
+                    width: 300px;
+                    margin: 20px;
+                    padding: 20px;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                    text-align: center;
+                }
+                .character img {
+                    max-width: 100%;
+                    border-radius: 5px;
+                }
+            </style>
+        </head>
+        <body>
+        
+        <h1>Jujutsu Kaisen Characters</h1>
+        
+        <div class="container">
+            <div class="character">
+                <h2>Yuji Itadori</h2>
+                <img src="https://via.placeholder.com/150" alt="Yuji Itadori">
+                <p>Yuji is the main protagonist of Jujutsu Kaisen.</p>
             </div>
-            <div>
-                <h3>Megumi Fushiguro</h3>
-                <p>é um dos personagens de Jujutsu Kaisen que mais tem se destacado na obra, seja no anime ou no mangá de Gege Akutami. Reservado, quieto e bastante poderoso, ele aparece já no primeiro episódio, sendo um calouro da Escola Jujutsu de Tokyo e é o primeiro feiticeiro a ter contato com o protagonista, Yuji Itadori. Apesar de ser o amigo do protagonista, já ficou claro que seu personagem não é apenas um personagem de apoio, mas sim um personagem tão forte quanto o protagonista e com um ótimo desenvolvimento.</p>
-                
+            <div class="character">
+                <h2>Gojo Satoru</h2>
+                <img src="https://via.placeholder.com/150" alt="Gojo Satoru">
+                <p>Gojo is a powerful jujutsu sorcerer and teacher at Tokyo Metropolitan Curse Technical College.</p>
             </div>
-            <div>
-                <h3>Nobara kugisaki</h3>
-                <p><div>
-                    <p>Inicialmente, Nobara pode parecer uma pessoa muito desagradável e arrogante. Ela primeiro se apresentou a Yuji e Megumi expressando o quão inferiores eles eram.  Ela também discutiu com Yuji para a maior parte de sua primeira missão juntos.  Apesar de sua atitude abrasiva, Nobara é realmente uma pessoa incrivelmente carinhosa e obediente, mas nunca deixaria a maioria das pessoas ver esse lado dela. Depois de lutar lado a lado em várias missões, Yuji e Megumi cresceram para se tornarem os aliados mais próximos de Nobara.</p>
-                
+            <div class="character">
+                <h2>Megumi Fushiguro</h2>
+                <img src="https://via.placeholder.com/150" alt="Megumi Fushiguro">
+                <p>Megumi is a first-year student at Tokyo Metropolitan Curse Technical College.</p>
             </div>
-        </section>
-        <section id="story">
-            <h2>História</h2>
-            <p>A história de Jujutsu Kaisen gira em torno de Yuji Itadori e seus companheiros feiticeiros enquanto eles enfrentam maldições poderosas e protegem os inocentes. A série é conhecida por sua ação intensa, enredos cativantes e personagens carismáticos.</p>
-        </section>
+        </div>
+        
+        <script>
+            // Your p5.js interactive code can go here
+            function setup() {
+                createCanvas(400, 400);
+                background(220);
+                fill(255, 0, 0);
+                ellipse(width / 2, height / 2, 50, 50);
+            }
         <section id="merchandise">
             <h2>Mercadorias</h2>
             <p>Confira algumas das mercadorias disponíveis de Jujutsu Kaisen, incluindo mangás, DVDs, figures e muito mais!</p>
