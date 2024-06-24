@@ -19,23 +19,17 @@
 </body>
 </html>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jujutsu Kaisen</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!DOCTYPE html>
-    <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Site sobre Jujutsu Kaisen</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
+    <header>
+        <div class="container">
+            <h1>Jujutsu Kaisen</h1>
             <nav>
                 <ul>
                     <li><a href="#inicio">Início</a></li>
@@ -45,51 +39,82 @@
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
-        </header>
-    
-        <main>
-            <section id="inicio">
-                <h1>Jujutsu Kaisen</h1>
-                <p>Bem-vindo ao nosso site dedicado ao universo de Jujutsu Kaisen!</p>
-            </section>
-    
-            <section id="personagens">
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="section">
+            <div class="container">
+                <h2>Bem-vindo ao mundo de Jujutsu Kaisen</h2>
+                <p>Descubra o universo dos feiticeiros e maldições.</p>
+                <a href="#personagens" class="btn">Conheça os Personagens</a>
+            </div>
+        </section>
+
+        <section id="personagens" class="section">
+            <div class="container">
                 <h2>Personagens Principais</h2>
-                <ul>
-                    <li>Yuji Itadori</li>
-                    <li>Megumi Fushiguro</li>
-                    <li>Nobara Kugisaki</li>
-                    <li>Satoru Gojo</li>
-                </ul>
-            </section>
-    
-            <section id="historia">
+                <div class="personagens-grid">
+                    <div class="personagem">
+                        <img src="itadori.jpg" alt="Yuji Itadori">
+                        <h3>Yuji Itadori</h3>
+                        <p>Um estudante com habilidades surpreendentes.</p>
+                    </div>
+                    <div class="personagem">
+                        <img src="gojo.jpg" alt="Satoru Gojo">
+                        <h3>Satoru Gojo</h3>
+                        <p>O mestre jujutsu mais poderoso.</p>
+                    </div>
+                    <div class="personagem">
+                        <img src="nobara.jpg" alt="Nobara Kugisaki">
+                        <h3>Nobara Kugisaki</h3>
+                        <p>Uma exorcista determinada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="historia" class="section">
+            <div class="container">
                 <h2>História</h2>
-                <p>Jujutsu Kaisen segue a história de...</p>
-            </section>
-    
-            <section id="galeria">
+                <p>Jujutsu Kaisen acompanha a jornada de...</p>
+            </div>
+        </section>
+
+        <section id="galeria" class="section">
+            <div class="container">
                 <h2>Galeria de Imagens</h2>
-                <!-- Inserir galeria de imagens aqui -->
-            </section>
-    
-            <section id="contato">
+                <div class="gallery">
+                    <img src="galeria1.jpg" alt="Imagem da galeria">
+                    <img src="galeria2.jpg" alt="Imagem da galeria">
+                    <img src="galeria3.jpg" alt="Imagem da galeria">
+                    <img src="galeria4.jpg" alt="Imagem da galeria">
+                    <img src="galeria5.jpg" alt="Imagem da galeria">
+                    <img src="galeria6.jpg" alt="Imagem da galeria">
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <div class="container">
                 <h2>Contato</h2>
-                <form>
+                <form action="#" method="POST" class="contact-form">
                     <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome"><br><br>
+                    <input type="text" id="nome" name="nome" required>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"><br><br>
-                    <label for="mensagem">Mensagem:</label><br>
-                    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
-                    <input type="submit" value="Enviar">
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    <button type="submit" class="btn">Enviar</button>
                 </form>
-            </section>
-        </main>
-    
-        <footer>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
             <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
-        </footer>
-    </body>
-    </html>
-    
+        </div>
+    </footer>
+</body>
+</html>
